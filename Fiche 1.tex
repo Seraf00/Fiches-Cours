@@ -1,0 +1,47 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{center}
+\fbox{\LARGE Formules trinôme du second degré}
+\end{center}
+\bigskip
+
+\[P(x) = ax^2+bx+c = a(x-\alpha)^2+\beta\]
+
+Le sommet de la parabole a pour coordonnées $(\alpha;\beta)$ avec : 
+\[\alpha = \dfrac{-b}{2a} \qquad\text{et}\qquad \beta = P(\alpha)\]
+
+
+Calcul du discriminant : $\boxed{\Delta = b^2-4ac }$
+\bigskip
+
+$\boxed{\Delta < 0} \implies$ Pas de racines donc pas de factorisation.
+
+La parabole ne coupe pas l'axe des abscisses et elle est tournée :
+\begin{itemize}
+  \item Branche vers le haut si $a>0$
+  \item Branche vers le bas si $a<0$
+\end{itemize}
+\bigskip
+
+$\boxed{\Delta = 0} \implies$ 1 racine double $x_0$ tel que 
+$P(x) = a(x-x_0)^2$ avec :
+\[
+x_0=\dfrac{-b}{2a}
+\]
+La parabole coupe l'axe des abscisses en un point et son allure dépend de $a$.
+\bigskip
+
+$\boxed{\Delta > 0} \implies$ 2 racines distinctes tel que $ P(x) = a(x-x_1)(x-x_2)$ avec :
+\[
+x_1=\dfrac{-b-\sqrt{\Delta}}{2a} \qquad\text{et}\qquad x_2=\dfrac{-b+\sqrt{\Delta}}{2a}
+\]
+La parabole coupe l'axe des abscisses en deux points et son allure dépend de $a$.
+\bigskip
+
+\textit{Remarque : Pour le tableau de signes, imaginer l'allure de la parabole et observer sa position par rapport à l'axe des abscisses ou utiliser les règles sur le signe de $a$.}
+\end{document}
